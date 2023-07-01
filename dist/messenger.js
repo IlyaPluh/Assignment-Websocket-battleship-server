@@ -4,7 +4,6 @@ const WebSocket = require("ws");
 const tokens_1 = require("./tokens");
 const typescript_collections_1 = require("typescript-collections");
 /*
-
 Todo
 Debug reconnection on mobile
 */
