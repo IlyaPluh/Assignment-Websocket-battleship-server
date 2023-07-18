@@ -1,11 +1,23 @@
 {
-    "compilerOptions": {
-        "module": "commonjs",
-        "target": "es2015",
-        "noImplicitAny": false,
-        "sourceMap": false
+  "ts-node": {
+    "esm": true,
+    "experimentalSpecifierResolution": "node"
     },
-    "include": [
-        "src/**/*.ts"
-    ]
+    "compilerOptions": {
+      "target": "ESNext",
+      "lib": ["ES6","ESNext"],
+      "module": "ESNext",
+      "allowJs": true,
+      "sourceMap": true,
+      "outDir": "build",
+      "resolveJsonModule": true,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "strict": true,
+      "noImplicitAny": true,
+      "skipLibCheck": true,
+      "moduleResolution": "node",
+      "allowSyntheticDefaultImports": true
+    },
+  "files": ["index.ts"],    
 }
